@@ -1,0 +1,98 @@
+@media screen and (max-width: 500px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vw;
+    }
+
+    .header h3{
+        font-size: 12px;
+    }
+
+.header .address{
+    font-size: 7px;
+}
+
+.search{
+    margin-left: 10vw;
+}
+
+.header input{
+    padding: 2px 5px;
+    width: 70px;
+    font-size: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header button{
+    margin-left: 10px;
+    padding: 2px 5px;
+    font-size: 6px;
+    border: .5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header a{
+    margin-left: 15px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.header a:hover{
+    color: gray;
+}
+
+.navbar{
+    height: 3VW;
+}
+
+.navbar .nav{
+padding-right: 50px;
+font-size: 10px;
+}
+
+.navbar .login {
+font-size: 8px;
+padding: 1px 5px;
+}
+
+.note{
+    font-size: 10px;
+}
+
+.content{
+    grid-template-columns: 1fr 1fr;
+    /* margin: 5vw; */
+    /* overflow: auto; */
+}
+
+.content .item{
+    padding-top: 5px;
+}
+
+.social {
+    display: block;
+    text-align: center;
+}
+
+.id{
+    display: flex;
+    margin: 6px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification li{
+    font-size: large;
+}
+
+footer{
+    font-size: 10px;
+    padding: 10px;
+}
+
+}
